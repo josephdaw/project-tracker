@@ -1,18 +1,7 @@
-//const currentTimeEl = $('#current-time');
-
-// var currentTime = moment().format("MMM Do, YYYY @ h:mm:ss a");
-// $("#current-time").text(currentTime);
-
-setInterval(function(){ 
-    var currentTime = moment().format("MMM Do, YYYY @ h:mm:ss a");
-$("#current-time").text(currentTime); }, 1000);
-
-
-// $('#new-project').on('shown.bs.modal', function () {
-//     $('#my-modal').trigger('focus')
-//   })
-
-// var myModal = document.getElementById('myModal')
-// var myInput = document.getElementById('myInput')
-
-// $('#myModal').modal(options)
+// Variables for DOM elements
+const projectFormEl = $('#project-form');
+const projectFormNameEl = $('#project-name-input');
+const projectFormTypeEl = $('#project-type-input');
+const projectFormRateEl = $('#project-rate-input');
+const projectFormDueDateEl = $('#project-due-date-input');
+const projectFormBtn = $('#project-form-btn')
